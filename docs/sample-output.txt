@@ -1,0 +1,141 @@
+==================================================
+       Welcome to To-Do List Application
+==================================================
+
++------------------------ MAIN MENU ------------------------+
+|  1.  Add Task                                             |
+|  2.  View All Tasks                                       |
+|  3.  Search Task by ID                                    |
+|  4.  Search Task by Title                                 |
+|  5.  Update Task                                          |
+|  6.  Mark Task as Completed                               |
+|  7.  Delete Task                                          |
+|  8.  View Pending Tasks                                   |
+|  9.  View Completed Tasks                                 |
+| 10.  Filter by Priority                                   |
+| 11.  Sort by Due Date                                     |
+| 12.  Sort by Priority                                     |
+| 13.  Show Total Tasks                                     |
+| 14.  Show Pending Count                                   |
+| 15.  Show Completed Count                                 |
+| 16.  Exit                                                 |
++-----------------------------------------------------------+
+Enter your choice (1-16): 2
+
+All Tasks
+----------------------------------------------------------------------------------------------------------------------------------
+ID    | Title                     | Description                    | Created      | Due Date     | Priority   | Status    
+----------------------------------------------------------------------------------------------------------------------------------
+1     | Complete Java Assignment  | Finish the OOP console appl... | 2026-06-28   | 2026-07-06   | High       | Pending   
+2     | Grocery Shopping          | Buy milk, eggs, bread, and ... | 2026-07-01   | 2026-07-04   | Medium     | Pending   
+3     | Schedule Dentist Appoi... | Call clinic to book annual ... | 2026-06-23   | 2026-07-10   | Low        | Completed 
+4     | Prepare Presentation      | Create slides for team spri... | 2026-06-30   | 2026-07-05   | High       | Pending   
+5     | Pay Electricity Bill      | Pay online before due date ... | 2026-07-02   | 2026-07-08   | Medium     | Pending   
+6     | Morning Workout           | 30-minute cardio and streng... | 2026-06-26   | 2026-07-03   | Medium     | Completed 
+7     | Read Design Patterns Book | Complete chapter on Factory... | 2026-06-29   | 2026-07-17   | Low        | Pending   
+8     | Submit Tax Documents      | Gather W-2 forms and upload... | 2026-06-27   | 2026-07-13   | High       | Pending   
+9     | Call Mom                  | Weekly catch-up call on Sun... | 2026-07-02   | 2026-07-05   | Low        | Pending   
+10    | Refactor Legacy Module    | Clean up authentication ser... | 2026-06-25   | 2026-07-24   | High       | Completed 
+----------------------------------------------------------------------------------------------------------------------------------
+Total: 10 task(s)
+
+Press Enter to continue...
+
++------------------------ MAIN MENU ------------------------+
+...
+Enter your choice (1-16): 3
+
+--- Search Task by ID ---
+Enter task ID: 4
+
+--- Task Details ---
+ID          : 4
+Title       : Prepare Presentation
+Description : Create slides for team sprint review meeting
+Created     : 2026-06-30
+Due Date    : 2026-07-05
+Priority    : High
+Status      : Pending
+--------------------
+
+Press Enter to continue...
+
+Enter your choice (1-16): 4
+
+--- Search Task by Title ---
+Enter title keyword: java
+
+Search Results for "java"
+----------------------------------------------------------------------------------------------------------------------------------
+ID    | Title                     | Description                    | Created      | Due Date     | Priority   | Status    
+----------------------------------------------------------------------------------------------------------------------------------
+1     | Complete Java Assignment  | Finish the OOP console appl... | 2026-06-28   | 2026-07-06   | High       | Pending   
+----------------------------------------------------------------------------------------------------------------------------------
+Total: 1 task(s)
+
+Press Enter to continue...
+
+Enter your choice (1-16): 6
+
+--- Mark Task as Completed ---
+Enter task ID: 1
+
+Task marked as completed.
+
+--- Task Details ---
+ID          : 1
+Title       : Complete Java Assignment
+Description : Finish the OOP console application for CS course
+Created     : 2026-06-28
+Due Date    : 2026-07-06
+Priority    : High
+Status      : Completed
+--------------------
+
+Press Enter to continue...
+
+Enter your choice (1-16): 13
+
+Total tasks: 10
+
+Press Enter to continue...
+
+Enter your choice (1-16): 14
+
+Pending tasks: 6
+
+Press Enter to continue...
+
+Enter your choice (1-16): 15
+
+Completed tasks: 4
+
+Press Enter to continue...
+
+Enter your choice (1-16): 10
+
+--- Filter by Priority ---
+Enter priority (LOW, MEDIUM, HIGH): HIGH
+
+High Priority Tasks
+----------------------------------------------------------------------------------------------------------------------------------
+ID    | Title                     | Description                    | Created      | Due Date     | Priority   | Status    
+----------------------------------------------------------------------------------------------------------------------------------
+1     | Complete Java Assignment  | Finish the OOP console appl... | 2026-06-28   | 2026-07-06   | High       | Completed 
+4     | Prepare Presentation      | Create slides for team spri... | 2026-06-30   | 2026-07-05   | High       | Pending   
+8     | Submit Tax Documents      | Gather W-2 forms and upload... | 2026-06-27   | 2026-07-13   | High       | Pending   
+10    | Refactor Legacy Module    | Clean up authentication ser... | 2026-06-25   | 2026-07-24   | High       | Completed 
+----------------------------------------------------------------------------------------------------------------------------------
+Total: 4 task(s)
+
+Press Enter to continue...
+
+Enter your choice (1-16): 11
+
+Tasks Sorted by Due Date
+----------------------------------------------------------------------------------------------------------------------------------
+(... tasks ordered earliest due date first ...)
+
+Enter your choice (1-16): 16
+
+Thank you for using To-Do List App. Goodbye!
