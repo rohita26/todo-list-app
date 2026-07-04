@@ -167,13 +167,6 @@ See [docs/sample-output.txt](docs/sample-output.txt) for the full sample session
 | 9 | Call Mom | LOW | Pending |
 | 10 | Refactor Legacy Module | HIGH | Completed |
 
-## Screenshots
-
-Add screenshots of the application running in your terminal to the `screenshots/` folder:
-
-- `screenshots/main-menu.png` — Main menu display
-- `screenshots/view-all-tasks.png` — Task table view
-- `screenshots/search-by-id.png` — Task detail view
 
 ## Future Improvements
 
