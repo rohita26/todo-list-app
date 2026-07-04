@@ -74,7 +74,7 @@ javac -version
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/todo-list-app.git
+git clone https://github.com/rohita26/todo-list-app.git
 cd todo-list-app
 ```
 
@@ -190,7 +190,7 @@ Add screenshots of the application running in your terminal to the `screenshots/
 
 **Rohita**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@rohita26](https://github.com/rohita26)
 
 ## License
 
